@@ -1,5 +1,5 @@
 # OPNA-VirtualMultiTrackRML
-OPNAのリズム音源で、楽器毎にトラックを分けて打ち込む為のラッパーRMLです。  
+YM2608(OPNA)のリズム音源で、楽器毎にトラックを分けて打ち込む為のラッパーRMLです。  
 現在は、[MUCOM88](https://onitama.tv/mucom88/) への変換にしか対応していませんが、もし他のMMLツールでも使ってみたいというご要望があれば、前向きに検討します。  
 
 実行ファイルのダウンロードは[こちら](https://github.com/DM-88mkII/OPNA-VirtualMultiTrackRML/blob/main/OPNA-VirtualMultiTrackRML/bin/Release/OPNA-VirtualMultiTrackRML.exe)  
