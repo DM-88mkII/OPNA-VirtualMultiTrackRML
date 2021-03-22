@@ -1,10 +1,10 @@
 
 # *0{c%1(3c%7)3}
 
-B T140 yRTL,63
-B v31pC    [c4 r16c8c16 r4 c8c8]4
-S v25pC    [r4c4.c4r16c16]4
-C v10pCl16 [q0c8 (3q5c)3 q0c8 (2q6c8)2 q0c8 (4q3c)4 q0c8 (2q5c)2 q0c8.]4
-H v8pCl16  [pLq6c [pRq0)10cpL(10q6cc]4 pCq3)10c(10q6cc]4
-T v20pC    [r4 r4 r4 r8c16r16]4
-R v14l16   [q7r8pR*0r8.pL*0pR*0rpL*0r8.pR*0rpL*0]4
+B T140 yRTL,63 L
+B v31pC    c4 r16c8c16 r4 c8c8
+S v25pC    r4c4.c4r16c16
+C v10pCl16 q0c8 (3q5c)3 q0c8 (2q6c8)2 q0c8 (4q3c)4 q0c8 (2q5c)2 q0c8.
+H v8pCl16  pLq6c [pRq0)10cpL(10q6cc]4 pCq3)10c(10q6cc
+T v20pC    r4 r4 r4 r8c16r16
+R v14l16   q7r8pR*0r8.pL*0pR*0rpL*0r8.pR*0rpL*0
