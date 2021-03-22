@@ -208,7 +208,6 @@ namespace FM_VirtualMultiTrackMML
 			
 			
 			Track[] maTrack = new Track[6];
-			public Register.Param RTL = new Register.Param();
 			
 			
 			
@@ -247,6 +246,8 @@ namespace FM_VirtualMultiTrackMML
 					bool[] abKeyOff = new bool[6]{false, false, false, false, false, false};
 					bool[] abScale = new bool[6]{false, false, false, false, false, false};
 					int Clock = -1;
+					
+					var RTL = new Register.Param();
 					
 					int nOutput = 0;
 					
