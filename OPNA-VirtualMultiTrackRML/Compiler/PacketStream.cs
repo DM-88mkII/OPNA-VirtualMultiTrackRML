@@ -294,10 +294,11 @@ namespace FM_VirtualMultiTrackMML
 							}
 							case (int)eFunction.Tie:{
 								if (oPacketScale >= 0 && maPacket[oPacketScale].IsScale && !maPacket[oPacketScale].IsSlur){
+									var Command = maPacket[oPacketScale].Command;
 									if (maPacket[oPacketScale].AddSlur()){
 										int Clock = 0;
 										if (c.GetClock(ref Clock, mSemibreve, mDefaultDuration)){
-											oPacketScale = AddPacketScale(((mbSilence)? (int)Packet.eCommand.r: maPacket[oPacketScale].Command), Clock, Callstack_oPrev, oCallstackLogger);
+											oPacketScale = AddPacketScale(((mbSilence)? (int)Packet.eCommand.r: Command), Clock, Callstack_oPrev, oCallstackLogger);
 											break;
 										}
 									}
